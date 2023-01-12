@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgquiz"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".result">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RESULTS"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:paddingBottom="18dp"
+        />
+
+    <ImageView
+        android:layout_width="266dp"
+        android:layout_height="210dp"
+        android:src="@drawable/ttt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hey,Congratulations! "
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:paddingBottom="18dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="username"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingBottom="18dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="your scores ar 7 out of 8"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingBottom="18dp"
+        />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"
+        />
+
+</LinearLayout>
